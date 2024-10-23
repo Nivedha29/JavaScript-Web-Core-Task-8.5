@@ -1,0 +1,342 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    background-color: #fff;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar .top-bar {
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar .logo {
+    width: 100px;
+}
+
+.sidebar .menu {
+    padding: 0 20px;
+}
+
+.sidebar .menu-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.menu-item {
+    display: block;
+    padding: 10px 0;
+    color: #333;
+    border-bottom: 1px solid #eee;
+}
+
+.sidebar .contact-info {
+    padding: 20px;
+}
+
+.sidebar .icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.icons img {
+    width: 30px;
+}
+
+.sidebar footer p {
+    margin: 10px 0;
+}
+
+.languages {
+    display: flex;
+    justify-content: space-between;
+}
+
+.languages a {
+    font-weight: bold;
+    color: #333;
+}
+
+.languages a.active {
+    color: #f00;
+}
+
+/* Main Header Styles */
+.desktop-header {
+    padding-left: 270px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.desktop-header h2 {
+    margin: 0;
+    color: #333;
+}
+
+.header__options {
+    display: flex;
+    gap: 20px;
+}
+
+.header__option-item {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.header__option-item img {
+    width: 40px;
+}
+
+/* Navigation Styles */
+.nav-desktop {
+    padding-left: 270px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+}
+
+.nav-desktop__links {
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.nav-desktop__item a {
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-desktop__item a:hover {
+    color: rgb(170, 168, 168);
+}
+
+/* Main Content Styles */
+.main-block {
+    padding-left: 270px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.main__description {
+    margin-bottom: 30px;
+}
+
+.main__description-text {
+    font-size: 16px;
+    color: #333;
+}
+
+.main__button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: rgb(192, 187, 187);
+}
+
+.main__button-text {
+    font-size: 16px;
+}
+
+.main__service {
+    text-align: center;
+}
+
+.main__service-img {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Brands Section */
+.brands {
+    padding-left: 270px;
+    margin-bottom: 30px;
+}
+
+.brands__title {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.brands__wrapper-desktop-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.brands__item {
+    width: calc(25% - 20px);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.brands__item img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.brands__item button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.brands__button-show-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: rgb(177, 171, 171);
+}
+
+.brands__button-show-item-text {
+    font-size: 16px;
+}
+
+/* Repair Device Section */
+.repair-device {
+    padding-left: 270px;
+    margin-bottom: 30px;
+}
+
+.repair-device__title {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.repair-device__desktop-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.repair-device__item {
+    width: calc(25% - 20px);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.repair-device__item p {
+    margin-bottom: 10px;
+}
+
+.repair-device__item-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* Prices Section */
+.prices {
+    padding-left: 270px;
+    margin-bottom: 30px;
+}
+
+.prices__column-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.prices-desktop__column-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.prices-desktop__button-order {
+    background-color: rgb(247, 58, 168);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.prices-desktop__button-order-img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.prices__descriptions {
+    margin-top: 30px;
+}
+
+.prices__descriptions-text {
+    font-size: 14px;
+    color: #333;
+}
+
+.prices__descriptions-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: rgb(247, 58, 168);
+}
+
+.prices__descriptions-button-img {
+    width: 20px;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #333;
+}
